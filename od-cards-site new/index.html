@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OD Cards</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>OD Cards</h1>
+    <nav>
+      <a href="#shop">Shop</a>
+      <a href="#auctions">Auctions</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="shop">
+      <h2>Shop Our eBay Listings</h2>
+      <div id="ebay-results">Loading cards...</div>
+    </section>
+
+    <section id="auctions">
+      <h2>Live Auctions</h2>
+      <p>Coming soon: Bid directly on exclusive cards here!</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact">
+        <p>
+          <label>Your Name: <input type="text" name="name" required></label>
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" required></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message" required></textarea></label>
+        </p>
+        <p><button type="submit">Send</button></p>
+      </form>
+    </section>
+
+    <section id="shipping">
+      <h2>Shipping & Insurance</h2>
+      <p>All packages are fully insured, carefully handled, and will always require a signature upon delivery. 
+      This ensures your cards arrive safe and secure.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 OD Cards. All Rights Reserved.</p>
+  </footer>
+
+  <script src="shop.js"></script>
+</body>
+</html>

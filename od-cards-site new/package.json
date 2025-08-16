@@ -1,0 +1,7 @@
+{
+  "name": "od-cards",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "echo 'No local server configured'"
+  }
+}
